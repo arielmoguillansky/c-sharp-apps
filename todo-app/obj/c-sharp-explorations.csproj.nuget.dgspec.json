@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ariel/Documents/C#/c-sharp-explorations/c-sharp-explorations.csproj": {}
+    "/home/ariel/Documents/C#/c-sharp-explorations/todo-app/c-sharp-explorations.csproj": {}
   },
   "projects": {
-    "/home/ariel/Documents/C#/c-sharp-explorations/c-sharp-explorations.csproj": {
+    "/home/ariel/Documents/C#/c-sharp-explorations/todo-app/c-sharp-explorations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ariel/Documents/C#/c-sharp-explorations/c-sharp-explorations.csproj",
+        "projectUniqueName": "/home/ariel/Documents/C#/c-sharp-explorations/todo-app/c-sharp-explorations.csproj",
         "projectName": "c-sharp-explorations",
-        "projectPath": "/home/ariel/Documents/C#/c-sharp-explorations/c-sharp-explorations.csproj",
+        "projectPath": "/home/ariel/Documents/C#/c-sharp-explorations/todo-app/c-sharp-explorations.csproj",
         "packagesPath": "/home/ariel/.nuget/packages/",
-        "outputPath": "/home/ariel/Documents/C#/c-sharp-explorations/obj/",
+        "outputPath": "/home/ariel/Documents/C#/c-sharp-explorations/todo-app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ariel/.nuget/NuGet/NuGet.Config"
