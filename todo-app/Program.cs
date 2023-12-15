@@ -24,19 +24,19 @@ string userInput = Console.ReadLine(); //capture user's input from console
 
 if (userInput == "S")
 {
-  Console.WriteLine("Selected option see all");
+  PrintSelectedOption("see all TODOs");
 }
 else if (userInput == "A")
 {
-  Console.WriteLine("Selected option add");
+  PrintSelectedOption("add TODO");
 }
 else if (userInput == "R")
 {
-  Console.WriteLine("Selected option remove");
+  PrintSelectedOption("remove TODO");
 }
 else if (userInput == "E")
 {
-  Console.WriteLine("Selected option exit");
+  PrintSelectedOption("exit");
 }
 else
 {
@@ -44,3 +44,9 @@ else
 }
 
 Console.ReadKey(); //prevent window to close
+
+void PrintSelectedOption(string selectedOption)
+{
+  Console.WriteLine("Selected option: " + selectedOption);
+}
+
