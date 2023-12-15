@@ -1,0 +1,15 @@
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/bin/Debug/net8.0/calculator-app
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/bin/Debug/net8.0/calculator-app.deps.json
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/bin/Debug/net8.0/calculator-app.runtimeconfig.json
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/bin/Debug/net8.0/calculator-app.dll
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/bin/Debug/net8.0/calculator-app.pdb
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.GeneratedMSBuildEditorConfig.editorconfig
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.AssemblyInfoInputs.cache
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.AssemblyInfo.cs
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.csproj.CoreCompileInputs.cache
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.sourcelink.json
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.dll
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/refint/calculator-app.dll
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.pdb
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/calculator-app.genruntimeconfig.cache
+/home/ariel/Documents/C#/c-sharp-explorations/calculator-app/obj/Debug/net8.0/ref/calculator-app.dll
