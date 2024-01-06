@@ -121,7 +121,10 @@ void RemoveTodo()
   string confirm;
   string todoToRemove = todos.ElementAt(int.Parse(todoIndex) - 1);
 
-  Console.WriteLine($"Are you sure you want to remove {todoToRemove}");
+  Console.BackgroundColor = ConsoleColor.Red;
+  Console.ForegroundColor = ConsoleColor.White;
+  Console.WriteLine($"Are you sure you want to remove {todoToRemove}? [Pres yes/y to continue]");
+  Console.ResetColor();
   confirm = Console.ReadLine().ToLower();
   if (confirm == "y" || confirm == "yes")
   {
