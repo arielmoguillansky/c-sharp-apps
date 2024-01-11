@@ -1,21 +1,42 @@
 ﻿Rectangle rectangle1 = new Rectangle(5, 10);
 var calculator = new ShapesMeasurementsCalculator();
 
+Console.WriteLine(Rectangle.DescribeGeneral());
 Console.WriteLine(rectangle1.Width);
+Console.WriteLine(rectangle1.GetHeight());
 Console.WriteLine(calculator.CalculateRectangleArea(rectangle1));
+rectangle1.Width = 12;
 Console.ReadKey();
 
 
 var medicalAppt = new MedicalAppointment("Ariel", new DateTime(2023, 4, 3));
 medicalAppt.Reschedule(new DateTime(2023, 4, 4));
 
+Console.WriteLine(Calculator.Add(1, 2));
 
+
+// Stateless class. Has no state.
+// When all methods are static, class becomes a static class.
+// Static class cannot be instantiated, only works as a container for methods.
+static class Calculator
+{
+
+  // static methods belong to a class as a whole, not to a specific instance. Meaning, it is not necessary to create different instances of a class.
+  // Static methods cannot use data.
+  public static int Add(int a, int b) => a + b;
+  public static int Multiply(int a, int b) => a * b;
+}
+
+// Rectangle is a stateful class
 class Rectangle
 {
-  // public members (types, variables, methods) should start with capital letter
+  // public members (types, variables, fields, methods) should start with capital letter
   //private members should start with underscore
-  public int Width;
-  public int Height;
+  // readonly prevents fields to be modified
+  // public readonly int Width;
+  // private int _height;
+
+  public static int NumberOfInstances { get; private set; }
 
   // constructor definition
   public Rectangle(int width, int height)
@@ -24,19 +45,60 @@ class Rectangle
     // Width = GetLength(width, "Width");
     Width = GetLength(width, nameof(Width));
     Height = GetLength(height, nameof(Height));
+    ++NumberOfInstances; // if was not static, it will reset the counter to one every time an instance is created.
   }
 
-  private int GetLength(int legnth, string name)
+  private int GetLength(int length, string name)
   {
-    int defaultValue = 1;
+    // constants must be initialized. Used for constant values known at compilation time. Const are implicitly static.
+    const int DefaultValue = 1;
 
-    if (legnth <= 0)
+    if (length <= 0)
     {
       Console.WriteLine($"{name} must be a positive number.");
-      return defaultValue;
+      return DefaultValue;
     }
-    return legnth;
+    return length;
   }
+
+
+  // These are called fields. Backing fields.
+  // private int _width;
+  // private int _height;
+
+  // // This is a property. Long syntax definition
+  // public int Width
+  // {
+  //   get
+  //   {
+  //     return _width;
+  //   }
+  //   set
+  //   {
+  //     if (value > 0)
+  //     {
+  //       _width = value;
+  //     }
+  //   }
+  // }
+
+  // Shorter version of property declaration.
+  public int Width { get; set; }
+  public int Height { get; set; }
+
+  public int GetHeight() => Height;
+  public void SetHeight(int value)
+  {
+    if (value > 0)
+    {
+      Height = value;
+    }
+  }
+
+  // Computed property
+  public string Description => $"Rectangle width: {Width}, and height: {Height}";
+
+  public static string DescribeGeneral() => "A shape";
 
   // methods should start with a verb
   // encapsulation example: methods and data under the same class.
@@ -57,12 +119,12 @@ class ShapesMeasurementsCalculator
   // methods should start with a verb
   public int CalculateRectangleCircumference(Rectangle rectangle)
   {
-    return 2 * rectangle.Width + 2 * rectangle.Height;
+    return 2 * rectangle.Width + 2 * rectangle.GetHeight();
   }
 
   public int CalculateRectangleArea(Rectangle rectangle)
   {
-    return rectangle.Width * rectangle.Height;
+    return rectangle.Width * rectangle.GetHeight();
   }
 }
 
