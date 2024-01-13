@@ -1,4 +1,15 @@
-﻿using srp.DataAccess;
+﻿global using System.Diagnostics;
+using srp.DataAccess;
+
+Stopwatch stopwatch = Stopwatch.StartNew();
+for (int i = 0; i < 100; i++)
+{
+  Console.WriteLine($"Number {i}");
+}
+
+stopwatch.Stop();
+Console.WriteLine($"Time in ms: {stopwatch.ElapsedMilliseconds}");
+
 Names names = new Names();
 string path = new NameFilePathBuilder().BuildFilePath();
 var stringsTextualRepository = new StringTextualRepositories();
