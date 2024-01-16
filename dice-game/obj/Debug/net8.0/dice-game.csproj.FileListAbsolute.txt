@@ -1,0 +1,15 @@
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/bin/Debug/net8.0/dice-game
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/bin/Debug/net8.0/dice-game.deps.json
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/bin/Debug/net8.0/dice-game.runtimeconfig.json
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/bin/Debug/net8.0/dice-game.dll
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/bin/Debug/net8.0/dice-game.pdb
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.GeneratedMSBuildEditorConfig.editorconfig
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.AssemblyInfoInputs.cache
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.AssemblyInfo.cs
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.csproj.CoreCompileInputs.cache
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.sourcelink.json
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.dll
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/refint/dice-game.dll
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.pdb
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/dice-game.genruntimeconfig.cache
+/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/Debug/net8.0/ref/dice-game.dll
