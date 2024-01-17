@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ariel/Documents/C#/c-sharp-explorations/dice-game/dice-game.csproj": {}
+    "/home/ariel/Documents/C#/c-sharp-explorations/diceGame/dice-game.csproj": {}
   },
   "projects": {
-    "/home/ariel/Documents/C#/c-sharp-explorations/dice-game/dice-game.csproj": {
+    "/home/ariel/Documents/C#/c-sharp-explorations/diceGame/dice-game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ariel/Documents/C#/c-sharp-explorations/dice-game/dice-game.csproj",
+        "projectUniqueName": "/home/ariel/Documents/C#/c-sharp-explorations/diceGame/dice-game.csproj",
         "projectName": "dice-game",
-        "projectPath": "/home/ariel/Documents/C#/c-sharp-explorations/dice-game/dice-game.csproj",
+        "projectPath": "/home/ariel/Documents/C#/c-sharp-explorations/diceGame/dice-game.csproj",
         "packagesPath": "/home/ariel/.nuget/packages/",
-        "outputPath": "/home/ariel/Documents/C#/c-sharp-explorations/dice-game/obj/",
+        "outputPath": "/home/ariel/Documents/C#/c-sharp-explorations/diceGame/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ariel/.nuget/NuGet/NuGet.Config"
