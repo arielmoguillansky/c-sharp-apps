@@ -1,5 +1,12 @@
 ﻿using diceGame.Game;
 Random rnd = new Random();
+
+Dice dice = new Dice(rnd);
+GuessingGame guessingGame = new GuessingGame(dice);
+GameResult gameResult = guessingGame.Play();
+guessingGame.PrintResult(gameResult);
+
+Console.ReadKey();
 // Console.WriteLine("Dice rolled. Guess what number it shows in 3 tries.");
 
 // string input;
@@ -41,15 +48,3 @@ Random rnd = new Random();
 //   }
 // }
 // Console.ReadKey();
-
-
-Dice dice = new Dice(rnd);
-GuessingGame guessingGame = new GuessingGame(dice);
-GameResult gameResult = guessingGame.Play();
-guessingGame.PrintResult(gameResult);
-
-Console.ReadKey();
-
-
-
-
