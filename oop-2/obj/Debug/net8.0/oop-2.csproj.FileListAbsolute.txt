@@ -1,0 +1,15 @@
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/bin/Debug/net8.0/oop-2
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/bin/Debug/net8.0/oop-2.deps.json
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/bin/Debug/net8.0/oop-2.runtimeconfig.json
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/bin/Debug/net8.0/oop-2.dll
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/bin/Debug/net8.0/oop-2.pdb
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.GeneratedMSBuildEditorConfig.editorconfig
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.AssemblyInfoInputs.cache
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.AssemblyInfo.cs
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.csproj.CoreCompileInputs.cache
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.sourcelink.json
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.dll
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/refint/oop-2.dll
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.pdb
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/oop-2.genruntimeconfig.cache
+/home/ariel/Documents/C#/c-sharp-explorations/oop-2/obj/Debug/net8.0/ref/oop-2.dll
